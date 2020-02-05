@@ -1,3 +1,3 @@
 The README file for my project
 Project started 2020-02-05
-Remember to call Alicia Keys tonight
+This is the first homework assignment
