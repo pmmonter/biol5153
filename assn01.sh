@@ -1,3 +1,4 @@
+#!/bin/sh
 #Paola Monterroso Diaz
 #BIOL5153
 #Spring 2020
