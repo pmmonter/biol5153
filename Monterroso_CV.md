@@ -2,7 +2,7 @@
 ---
 <pmmonter@uark.edu> | Fayetteville, AR 72701 | (479) 466-2254 
 
-#### Education
+### Education
 **University of Arkansas,** Fayetteville, AR
 * Ph.D. in Biomedical Engineering, _anticipated May 2022_
 * Bachelor of Science in Biomedical Engineering, _December 2017_
