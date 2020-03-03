@@ -1,0 +1,3 @@
+Under the three different settings, there are 39, 42, and 66 sequences selected for default, somewhat sensitive, and sensitive parameters respectively.
+The parameter that this size directly relates to is the sensitivity with which each of these algorithms retrieve either highly similar sequences (fast),
+or more dissimilar sequences (slower), or somewhat similar sequences.  

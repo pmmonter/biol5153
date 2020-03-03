@@ -1,0 +1,11 @@
+The bigger the database the more likely it is to get a match in a bigger pool of sequences, 
+which makes it more likely to get a bigger raw score.
+
+The bit score is just a normalized raw score and does not depend on database size.
+
+The e-value is the number of expected hits of similarly quality that could be found 
+just by chance, so the bigger the database the more likely a smaller e-value will be.
+
+These patterns can be explained by the fact that the e-value is a corrected bit-score 
+adjusted to the sequence database size, and therefore depends on the size of the used 
+sequence database.  

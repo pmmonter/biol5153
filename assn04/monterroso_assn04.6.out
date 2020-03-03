@@ -1,0 +1,87 @@
+
+
+Building a new DB, current time: 03/03/2020 02:51:20
+New DB name:   /storage/pmmonter/watermelon_files/watermelonaa.fasta
+New DB title:  /storage/pmmonter/watermelon_files/watermelonaa.fasta
+Sequence type: Protein
+Deleted existing Protein BLAST database named /storage/pmmonter/watermelon_files/watermelonaa.fasta
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 39 sequences in 0.00307393 seconds.
+BLASTX 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: /storage/pmmonter/watermelon_files/watermelonaa.fasta
+           39 sequences; 10,777 total letters
+
+
+
+Query= Citrullus_nad4L
+
+Length=303
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Citrullus_lanatus_nad4L                                             124     2e-41
+
+
+> Citrullus_lanatus_nad4L
+Length=100
+
+ Score = 124 bits (310),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 99/99 (100%), Positives = 99/99 (100%), Gaps = 0/99 (0%)
+ Frame = +1
+
+Query  4    DPIKYFTFSMiisilgirgillnrrnipiMSMPIESMLLAvnsnflvfsvssDDMMGQSF  183
+            DPIKYFTFSMIISILGIRGILLNRRNIPIMSMPIESMLLAVNSNFLVFSVSSDDMMGQSF
+Sbjct  2    DPIKYFTFSMIISILGIRGILLNRRNIPIMSMPIESMLLAVNSNFLVFSVSSDDMMGQSF  61
+
+Query  184  ASLVPTVAAAESAIGLAIFVITFRVRGTIAVEFINSIQG  300
+            ASLVPTVAAAESAIGLAIFVITFRVRGTIAVEFINSIQG
+Sbjct  62   ASLVPTVAAAESAIGLAIFVITFRVRGTIAVEFINSIQG  100
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 550680
+
+
+  Database: /storage/pmmonter/watermelon_files/watermelonaa.fasta
+    Posted date:  Mar 3, 2020  2:51 AM
+  Number of letters in database: 10,777
+  Number of sequences in database:  39
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40
+PBS Job Statistics:
+PBS Job ID: 4779916.sched
+Resource List: neednodes=1:ppn=16,nodes=1:ppn=16,walltime=00:30:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: debug16core
+Program Return Code: 0
+Head Node:
+compute1521
+PBS Job Statistics:
+PBS Job ID: 4779916.sched
+Resource List: neednodes=1:ppn=16,nodes=1:ppn=16,walltime=00:30:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: debug16core
+Program Return Code: 0
+Head Node: compute1521
