@@ -12,3 +12,4 @@
 8.  **pb4_ch05** : jupyter notebook for Chapter 5 in-text examples of "Programming for Biologists" textbook.
 9.  **parseGFF.py** : python script with parse command line arguments with argparse; extracts each CDS feature and calculates GC content
 10. **pb4_ch07** : jupyter notebook for Chapter 7 in-text examples of "Programming for Biologists" textbook.
+11. **pb4_ch08** : jupyter notebook for Chapter 8 in-text examples of "Programming for Biologists" textbook.
